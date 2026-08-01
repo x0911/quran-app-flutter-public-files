@@ -1,0 +1,18 @@
+# macOS OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Temporary and editor files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python / script cache
+__pycache__/
+*.pyc

@@ -1,0 +1,101 @@
+name: Update Download Statistics
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch Release Data & Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 -c "
+          import urllib.request
+          import json
+          import os
+          import re
+          from datetime import datetime, timezone
+
+          repo = os.environ.get('REPO', 'x0911/quran-app-flutter-public-files')
+          token = os.environ.get('GITHUB_TOKEN', '')
+
+          url = f'https://api.github.com/repos/{repo}/releases'
+          req = urllib.request.Request(url)
+          req.add_header('Accept', 'application/vnd.github+json')
+          if token:
+              req.add_header('Authorization', f'Bearer {token}')
+          req.add_header('User-Agent', 'GitHub-Actions-Update-Download-Stats')
+
+          try:
+              with urllib.request.urlopen(req) as resp:
+                  releases = json.loads(resp.read().decode('utf-8'))
+          except Exception as e:
+              print(f'Error fetching releases: {e}')
+              releases = []
+
+          rows = []
+          total_downloads = 0
+
+          for rel in releases:
+              tag = rel.get('tag_name', 'N/A')
+              assets = rel.get('assets', [])
+              for asset in assets:
+                  name = asset.get('name', 'N/A')
+                  size_mb = asset.get('size', 0) / (1024 * 1024)
+                  dl_count = asset.get('download_count', 0)
+                  total_downloads += dl_count
+                  rows.append(f'| `{tag}` | `{name}` | {size_mb:.2f} MB | {dl_count:,} |')
+
+          if not rows:
+              table_content = '| Release Tag | Asset Name | File Size | Download Count |\n| :--- | :--- | :--- | :--- |\n| *No releases found* | - | - | 0 |'
+          else:
+              header = '| Release Tag | Asset Name | File Size | Download Count |\n| :--- | :--- | :--- | :--- |'
+              table_content = header + '\n' + '\n'.join(rows) + f'\n\n**Total Asset Downloads across all releases:** `{total_downloads:,}`'
+
+          now_utc = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+          new_section = f'<!-- DOWNLOAD_STATS_START -->\n{table_content}\n\n*Last updated: {now_utc}*\n<!-- DOWNLOAD_STATS_END -->'
+
+          readme_path = 'README.md'
+          if os.path.exists(readme_path):
+              with open(readme_path, 'r', encoding='utf-8') as f:
+                  content = f.read()
+              
+              pattern = r'<!-- DOWNLOAD_STATS_START -->.*?<!-- DOWNLOAD_STATS_END -->'
+              updated_content = re.sub(pattern, new_section, content, flags=re.DOTALL)
+
+              with open(readme_path, 'w', encoding='utf-8') as f:
+                  f.write(updated_content)
+              print('Updated README.md stats successfully.')
+          else:
+              print('README.md not found!')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes in download stats."
+          else
+            git commit -m "chore: update release download statistics [skip ci]"
+            git push
+          fi

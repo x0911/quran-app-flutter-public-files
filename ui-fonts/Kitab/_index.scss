@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Kitab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Kitab-Regular'), local('Kitab-Regular'),
+    url('../fonts/Kitab/woff2/Kitab-Regular.woff2') format('woff2'),
+    url('../fonts/Kitab/woff/Kitab-Regular.woff') format('woff'),
+    url('../fonts/Kitab/ttf/Kitab-Regular.ttf') format('ttf'),
+    url('../fonts/Kitab/svg/Kitab-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Kitab';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('Kitab-Bold'), local('Kitab-Bold'),
+    url('../fonts/Kitab/woff2/Kitab-Bold.woff2') format('woff2'),
+    url('../fonts/Kitab/woff/Kitab-Bold.woff') format('woff'),
+    url('../fonts/Kitab/ttf/Kitab-Bold.ttf') format('ttf'),
+    url('../fonts/Kitab/svg/Kitab-Bold.svg') format('svg');
+}

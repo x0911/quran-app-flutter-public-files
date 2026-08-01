@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Hafs';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Hafs'), local('Hafs'),
+    url('../fonts/Hafs/woff2/v20.woff2') format('woff2'),
+    url('../fonts/Hafs/woff/v20.woff') format('woff'),
+    url('../fonts/Hafs/ttf/v20.ttf') format('ttf'),
+    url('../fonts/Hafs/svg/v20.svg') format('svg');
+}

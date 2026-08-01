@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Lotus';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Lotus'), local('Lotus'),
+    url('../fonts/Lotus/woff2/Lotus.woff2') format('woff2'),
+    url('../fonts/Lotus/woff/Lotus.woff') format('woff'),
+    url('../fonts/Lotus/ttf/Lotus.ttf') format('ttf'),
+    url('../fonts/Lotus/svg/Lotus.svg') format('svg');
+}
