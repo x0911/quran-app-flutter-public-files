@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO: ${{ github.repository }}
         run: |
-          python3 -c "
+          cat << 'EOF' > update_stats.py
           import urllib.request
           import json
           import os
@@ -84,9 +84,9 @@ jobs:
               with open(readme_path, 'w', encoding='utf-8') as f:
                   f.write(updated_content)
               print('Updated README.md stats successfully.')
-          else:
-              print('README.md not found!')
-          "
+          EOF
+          python3 update_stats.py
+          rm update_stats.py
 
       - name: Commit and push if changed
         run: |
