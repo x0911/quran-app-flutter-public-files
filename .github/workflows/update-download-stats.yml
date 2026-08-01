@@ -55,12 +55,12 @@ jobs:
           total_downloads = 0
 
           for rel in releases:
-              tag = rel.get('tag_name', 'N/A')
+              tag = str(rel.get('tag_name') or 'N/A')
               assets = rel.get('assets', [])
               for asset in assets:
-                  name = asset.get('name', 'N/A')
+                  name = str(asset.get('name') or 'N/A')
                   size_mb = asset.get('size', 0) / (1024 * 1024)
-                  dl_count = asset.get('download_count', 0)
+                  dl_count = int(asset.get('download_count') or 0)
                   total_downloads += dl_count
                   rows.append(f'| `{tag}` | `{name}` | {size_mb:.2f} MB | {dl_count:,} |')
 
