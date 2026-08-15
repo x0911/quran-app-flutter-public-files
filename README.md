@@ -20,7 +20,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 
 **Total Asset Downloads across all releases:** `39`
 
-*Last updated: 2026-08-14 01:02 UTC*
+*Last updated: 2026-08-15 00:37 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
