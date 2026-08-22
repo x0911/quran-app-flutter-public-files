@@ -12,15 +12,15 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v1.0.0` | `decorations.zip` | 14.97 MB | 7 |
-| `v1.0.0` | `pfont.zip` | 41.73 MB | 9 |
-| `v1.0.0` | `quran-pages.zip` | 0.44 MB | 8 |
-| `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 8 |
-| `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 7 |
+| `v1.0.0` | `decorations.zip` | 14.97 MB | 8 |
+| `v1.0.0` | `pfont.zip` | 41.73 MB | 10 |
+| `v1.0.0` | `quran-pages.zip` | 0.44 MB | 9 |
+| `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 9 |
+| `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 8 |
 
-**Total Asset Downloads across all releases:** `39`
+**Total Asset Downloads across all releases:** `44`
 
-*Last updated: 2026-08-21 00:40 UTC*
+*Last updated: 2026-08-22 00:37 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
