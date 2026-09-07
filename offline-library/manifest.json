@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "database_name": "quran_offline_library.sqlite",
+  "zip_name": "quran_offline_library.zip",
+  "uncompressed_bytes": 267542528,
+  "uncompressed_mb": 255.15,
+  "compressed_bytes": 43824551,
+  "compressed_mb": 41.79,
+  "sha256": "6723333ef8759de7734b11a97c5d6e69cbd232809e48be797663a2bbff1a044b",
+  "table_count": 24,
+  "tables": {
+    "surah": [
+      "sura_asmaa_sowar",
+      "sura_maqased_sowar",
+      "sura_fadael_sowar",
+      "sura_nozool_sowar",
+      "sura_adad_ayat_sowar_fn",
+      "sura_adad_ayat_sowar"
+    ],
+    "page": [
+      "page_fawaed_page"
+    ],
+    "aya": [
+      "aya_tafsir_mokhtasar",
+      "aya_tafsir_saadi",
+      "aya_tafsir_katheer",
+      "aya_tafsir_baghawy",
+      "aya_tafsir_tabary",
+      "aya_tajweed_aya",
+      "aya_eerab_aya",
+      "aya_eerab_word_aya",
+      "aya_ayat_nozool",
+      "aya_translation_en"
+    ],
+    "word": [
+      "word_meaning_word",
+      "word_word_tasreef",
+      "word_eerab_word",
+      "word_word_qeraat",
+      "word_translation",
+      "word_tajweed_rules"
+    ],
+    "meta": [
+      "metadata"
+    ]
+  }
+}

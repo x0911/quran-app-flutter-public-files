@@ -16,3 +16,13 @@ Thumbs.db
 # Python / script cache
 __pycache__/
 *.pyc
+
+# Large database binaries and release archive packages
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.tar.xz
+*.tar.gz
+*.tar.bz2
+surahpedia-dbs/
