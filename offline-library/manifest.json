@@ -1,47 +1,33 @@
 {
-  "version": 1,
-  "database_name": "quran_offline_library.sqlite",
-  "zip_name": "quran_offline_library.zip",
-  "uncompressed_bytes": 267542528,
-  "uncompressed_mb": 255.15,
-  "compressed_bytes": 43824551,
-  "compressed_mb": 41.79,
-  "sha256": "6723333ef8759de7734b11a97c5d6e69cbd232809e48be797663a2bbff1a044b",
-  "table_count": 24,
-  "tables": {
-    "surah": [
-      "sura_asmaa_sowar",
-      "sura_maqased_sowar",
-      "sura_fadael_sowar",
-      "sura_nozool_sowar",
-      "sura_adad_ayat_sowar_fn",
-      "sura_adad_ayat_sowar"
-    ],
-    "page": [
-      "page_fawaed_page"
-    ],
-    "aya": [
-      "aya_tafsir_mokhtasar",
-      "aya_tafsir_saadi",
-      "aya_tafsir_katheer",
-      "aya_tafsir_baghawy",
-      "aya_tafsir_tabary",
-      "aya_tajweed_aya",
-      "aya_eerab_aya",
-      "aya_eerab_word_aya",
-      "aya_ayat_nozool",
-      "aya_translation_en"
-    ],
-    "word": [
-      "word_meaning_word",
-      "word_word_tasreef",
-      "word_eerab_word",
-      "word_word_qeraat",
-      "word_translation",
-      "word_tajweed_rules"
-    ],
-    "meta": [
-      "metadata"
-    ]
+  "version": 2,
+  "packages": {
+    "hafs_bundle": {
+      "archive_name": "hafs_bundle.tar.xz",
+      "format": "tar.xz",
+      "compressed_bytes": 34639120,
+      "compressed_mb": 33.03,
+      "sha256": "552da43b8b2ab7be4e72f3538f645172738980f76f41e4dce4528e3e14f708ef",
+      "description": "Unified Hafs text bundle containing 604 TTF fonts, 604 page JSON files, 114 surah JSON files, and word-by-word translation database",
+      "contents": {
+        "pfont": 604,
+        "quran-pages": 604,
+        "quran-surah-pages": 114,
+        "databases": 1
+      }
+    },
+    "quran_offline_library": {
+      "database_name": "quran_offline_library.sqlite",
+      "archive_tar_xz": "quran_offline_library.tar.xz",
+      "archive_zip": "quran_offline_library.zip",
+      "uncompressed_bytes": 267542528,
+      "uncompressed_mb": 255.15,
+      "tar_xz_bytes": 22213508,
+      "tar_xz_mb": 21.18,
+      "tar_xz_sha256": "decbb908909a8b7b0bfa190ba7a90267cd8660ce469f517e5abb7ab699135de6",
+      "zip_bytes": 43824551,
+      "zip_mb": 41.79,
+      "zip_sha256": "6723333ef8759de7734b11a97c5d6e69cbd232809e48be797663a2bbff1a044b",
+      "table_count": 24
+    }
   }
 }
