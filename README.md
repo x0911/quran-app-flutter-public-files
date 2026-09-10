@@ -12,8 +12,8 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 5 |
-| `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 6 |
+| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 11 |
+| `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 9 |
 | `v3.0.0` | `quran_offline_library.zip` | 41.79 MB | 1 |
 | `v3.0.0` | `wbw-translation.zip` | 1.65 MB | 1 |
 | `v2.0.0` | `visual_refs_images.zip` | 3.51 MB | 0 |
@@ -23,9 +23,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `80`
+**Total Asset Downloads across all releases:** `89`
 
-*Last updated: 2026-09-09 02:05 UTC*
+*Last updated: 2026-09-10 02:01 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
