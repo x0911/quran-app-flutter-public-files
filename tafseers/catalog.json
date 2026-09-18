@@ -1,0 +1,42 @@
+[
+  {
+    "key": "tafsir-muyassar",
+    "nameAr": "التفسير الميسر",
+    "nameEn": "Al-Muyassar",
+    "fileName": "tafsir-muyassar.sqlite",
+    "zipFileName": "tafsir-muyassar.sqlite.zip",
+    "compressedSizeBytes": 647348,
+    "ayahCount": 6236,
+    "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v4.0.0/tafsir-muyassar.sqlite.zip"
+  },
+  {
+    "key": "tafsir-waseet",
+    "nameAr": "الوسيط",
+    "nameEn": "Al-Waseet",
+    "fileName": "tafsir-waseet.sqlite",
+    "zipFileName": "tafsir-waseet.sqlite.zip",
+    "compressedSizeBytes": 5039455,
+    "ayahCount": 6108,
+    "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v4.0.0/tafsir-waseet.sqlite.zip"
+  },
+  {
+    "key": "tafsir-qurtubi",
+    "nameAr": "القرطبي",
+    "nameEn": "Al-Qurtubi",
+    "fileName": "tafsir-qurtubi.sqlite",
+    "zipFileName": "tafsir-qurtubi.sqlite.zip",
+    "compressedSizeBytes": 5450734,
+    "ayahCount": 6235,
+    "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v4.0.0/tafsir-qurtubi.sqlite.zip"
+  },
+  {
+    "key": "tafsir-tanweer",
+    "nameAr": "التحرير والتنوير",
+    "nameEn": "Al-Tanweer",
+    "fileName": "tafsir-tanweer.sqlite",
+    "zipFileName": "tafsir-tanweer.sqlite.zip",
+    "compressedSizeBytes": 8268526,
+    "ayahCount": 6083,
+    "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v4.0.0/tafsir-tanweer.sqlite.zip"
+  }
+]
