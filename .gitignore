@@ -26,3 +26,4 @@ __pycache__/
 *.tar.gz
 *.tar.bz2
 surahpedia-dbs/
+temp_audio_work/

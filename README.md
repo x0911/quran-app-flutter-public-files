@@ -78,6 +78,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 
 ```
 quran-app-flutter-public-files/
+├── audio/                  # Offline Quran recitation audio packs (catalog.json & release v5.0.0 assets)
+├── tafseers/               # 4 additional downloadable Tafsir databases (.sqlite.zip)
+├── translations/           # 40 Quran translation databases (.db.zip)
 ├── pfont/                  # 604 per-page TrueType fonts (page_1.ttf .. page_604.ttf)
 ├── quran-pages/            # 604 per-page JSON files with word/line structures (1.json .. 604.json)
 ├── quran-surah-pages/      # 114 per-surah page range JSON mappings (1.json .. 114.json)
@@ -90,6 +93,7 @@ quran-app-flutter-public-files/
 
 ### Folder Breakdown
 
+- **`audio/`**: Metadata catalog (`catalog.json`) and automation tools for 42 Quran reciter audio packs published under GitHub Release `v5.0.0`.
 - **`pfont/` (604 files, ~43 MB total)**: Per-page custom fonts mapping Private-Use-Area (PUA) Unicode codepoints to exact glyph shapes for each page of the standard 604-page Madina Mushaf layout.
 - **`quran-pages/` (604 files, ~2.5 MB total)**: Detailed JSON data for every page, defining word boundaries, line positions, ayah references, and special markers (`aya: -2` for surah headers, `aya: -1` for Bismillah).
 - **`quran-surah-pages/` (114 files, ~1.7 MB total)**: Surah metadata and page boundary definitions for surah-based navigation modes.
