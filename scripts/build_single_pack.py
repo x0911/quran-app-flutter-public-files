@@ -46,7 +46,7 @@ EVERYAYAH_MAP = {
 
 def download_file(url, out_path):
     cmd = [
-        'curl', '-sSL',
+        'curl', '-sSLf',
         '--retry', '5',
         '--retry-delay', '2',
         '--connect-timeout', '30',
@@ -56,6 +56,8 @@ def download_file(url, out_path):
     ]
     res = subprocess.run(cmd, capture_output=True)
     if res.returncode != 0:
+        if os.path.exists(out_path):
+            os.remove(out_path)
         raise RuntimeError(f"curl download failed for {url}: {res.stderr.decode()}")
 
 def download_surah_reciter(base_url, target_folder):
@@ -155,6 +157,24 @@ def main():
                         download_file(u, dst)
                 with ThreadPoolExecutor(max_workers=16) as ex:
                     list(ex.map(_dl, tasks))
+                mp3_files = [f for f in os.listdir(reciter_dir) if f.endswith('.mp3')]
+                if len(mp3_files) < 6200:
+                    raise RuntimeError(f"Expected ~6236 ayahs, only downloaded {len(mp3_files)}")
+
+                if reciter_id == 'ibrahim_walk':
+                    print(f"[{reciter_id}] Re-encoding ayahs to 64k for optimal archive size (<1GB)...")
+                    def _reencode(f):
+                        src = os.path.join(reciter_dir, f)
+                        tmp_out = os.path.join(reciter_dir, f"cmp_{f}")
+                        subprocess.run(
+                            ['ffmpeg', '-i', src, '-b:a', '64k', '-y', tmp_out],
+                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+                        )
+                        if os.path.exists(tmp_out) and os.path.getsize(tmp_out) > 0:
+                            os.replace(tmp_out, src)
+                    with ThreadPoolExecutor(max_workers=8) as ex:
+                        list(ex.map(_reencode, mp3_files))
+
                 with zipfile.ZipFile(final_zip, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
                     for f in sorted(os.listdir(reciter_dir)):
                         if f.endswith('.mp3'):
@@ -190,6 +210,15 @@ def main():
 
         final_size = os.path.getsize(final_zip)
         print(f"[{reciter_id}] Archive finalized: {final_size / (1024*1024):.1f} MB ({final_size} bytes)")
+
+        # Verify archive integrity and file count before uploading
+        with zipfile.ZipFile(final_zip, 'r') as zf:
+            infolist = zf.infolist()
+            expected_count = 6200 if is_ayah else 114
+            if len(infolist) < expected_count:
+                raise RuntimeError(f"Zip {zip_name} contains only {len(infolist)} files (expected >= {expected_count})")
+        if final_size < 50 * 1024 * 1024:
+            raise RuntimeError(f"Archive {zip_name} is suspiciously small: {final_size} bytes")
 
         print(f"[{reciter_id}] Uploading {zip_name} to GitHub release v5.0.0...")
         subprocess.run(
