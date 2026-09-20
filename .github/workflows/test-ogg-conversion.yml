@@ -1,0 +1,39 @@
+name: Test OGG Conversion Experiment
+
+on:
+  workflow_dispatch:
+    inputs:
+      reciter_id:
+        description: 'Reciter ID to test'
+        required: false
+        default: 'minshawi_murattal'
+      surah:
+        description: 'Surah number (e.g. 002 for Al-Baqara)'
+        required: false
+        default: '002'
+
+permissions:
+  contents: write
+
+jobs:
+  convert-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Run OGG conversion experiment and upload to v5.0.0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/test_ogg_conversion.py "${{ github.event.inputs.reciter_id || 'minshawi_murattal' }}" "${{ github.event.inputs.surah || '002' }}"
