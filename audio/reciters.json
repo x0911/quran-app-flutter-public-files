@@ -1,0 +1,422 @@
+[
+  {
+    "id": "minshawi_murattal",
+    "nameAr": "محمد صديق المنشاوي (مرتل)",
+    "nameEn": "Minshawi Murattal",
+    "baseUrl": "https://download.quranicaudio.com/quran/muhammad_siddeeq_al-minshaawee/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "minshawi_murattal.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "husary",
+    "nameAr": "محمود خليل الحصري (مرتل)",
+    "nameEn": "Husary",
+    "baseUrl": "https://download.quranicaudio.com/quran/mahmood_khaleel_al-husaree/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "husary.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "sudais_murattal",
+    "nameAr": "عبد الرحمن السديس",
+    "nameEn": "Abdurrahman As-Sudais",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdurrahmaan_as-sudays/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "sudais_murattal.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "qatami",
+    "nameAr": "ناصر القطامي",
+    "nameEn": "Nasser Al Qatami",
+    "baseUrl": "https://download.quranicaudio.com/quran/nasser_bin_ali_alqatami/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "qatami.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdullah_basfar",
+    "nameAr": "عبد الله بصفر",
+    "nameEn": "Abdullah Basfar",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Abdullah_Basfar_192kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "abdullah_basfar.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "shatri",
+    "nameAr": "أبو بكر الشاطري",
+    "nameEn": "Abu Bakr Ash-Shatri",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Abu_Bakr_Ash-Shaatree_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "shatri.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "alafasy",
+    "nameAr": "مشاري بن راشد العفاسي",
+    "nameEn": "Mishary Al-Afasy",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Alafasy_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "Alfasy.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ghamdi",
+    "nameAr": "سعد الغامدي",
+    "nameEn": "Saad Al-Ghamdi",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Ghamadi_40kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "sa3d_alghamidi.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ibrahim_walk",
+    "nameAr": "إبراهيم والك (ترجمة إنجليزية)",
+    "nameEn": "Ibrahim Walk (English Trans.)",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Ibrahim_Walk_192kbps_TEST/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "ibrahim_walk.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "hani_rifai",
+    "nameAr": "هاني الرفاعي",
+    "nameEn": "Hani Ar-Rifai",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Hani_Rifai_192kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "hani_rifai.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "husary_mujawwad",
+    "nameAr": "محمود خليل الحصري (مجود)",
+    "nameEn": "Husary Mujawwad",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Husary_128kbps_Mujawwad/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "husary_mujawwad.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "hudhaify",
+    "nameAr": "علي بن عبد الرحمن الحذيفي",
+    "nameEn": "Ali Al-Hudhaify",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Hudhaify_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "hudhaify.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "almuaiqly",
+    "nameAr": "ماهر المعيقلي",
+    "nameEn": "Maher Al Muaiqly",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Maher_AlMuaiqly_64kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "maher_almuaiqly.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "minsha_mujawwad",
+    "nameAr": "محمد صديق المنشاوي (مجود)",
+    "nameEn": "Minshawy Mujawwad",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Minshawy_Mujawwad_192kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "minshawy_mujawwad.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "tablawy",
+    "nameAr": "محمد الطبلاوي",
+    "nameEn": "Mohammad al Tablaway",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Mohammad_al_Tablaway_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "mohammad_altablawi.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "muhammad_ayyoub",
+    "nameAr": "محمد أيوب",
+    "nameEn": "Muhammad Ayyoub",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Muhammad_Ayyoub_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "muhammad_ayyoob.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "muhammad_jibreel",
+    "nameAr": "محمد جبريل",
+    "nameEn": "Muhammad Jibreel",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Muhammad_Jibreel_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "muhammad_jibrel.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "shuraym",
+    "nameAr": "سعود الشريم",
+    "nameEn": "Saood Ash-Shuraym",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Saood_ash-Shuraym_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "shuraym.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "dussary",
+    "nameAr": "ياسر الدوسري",
+    "nameEn": "Yasser Ad-Dussary",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Yasser_Ad-Dussary_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "yasser_dussary.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdul_basit_murattal",
+    "nameAr": "عبد الباسط عبد الصمد (مرتل)",
+    "nameEn": "Abd Al-Basit Murattal",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdul_basit_murattal/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "abdul_basit_murattal.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdul_basit_mujawwad",
+    "nameAr": "عبد الباسط عبد الصمد (مجود)",
+    "nameEn": "Abd Al-Basit Mujawwad",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdulbaset_mujawwad/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "abdul_basit_mujawwad.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "aziz_alili",
+    "nameAr": "عزيز عليلي",
+    "nameEn": "Aziz Alili",
+    "baseUrl": "https://download.quranicaudio.com/quran/aziz_alili/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "aziz_alili.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "salah_budair",
+    "nameAr": "صلاح بدير",
+    "nameEn": "Salah Budair",
+    "baseUrl": "https://download.quranicaudio.com/quran/salahbudair/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "salah_budair.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "sahl_yaseen",
+    "nameAr": "سهل ياسين",
+    "nameEn": "Sahl Yaseen",
+    "baseUrl": "https://download.quranicaudio.com/quran/sahl_yaaseen/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "sahl_yaseen.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "akram_al_alaqmi",
+    "nameAr": "أكرم العلقمي",
+    "nameEn": "Akram Al-Alaqmi",
+    "baseUrl": "https://download.quranicaudio.com/quran/akram_al_alaqmi/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "akram_al_alaqmi.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ahmad_nauina",
+    "nameAr": "أحمد نعينع",
+    "nameEn": "Ahmad Nauina",
+    "baseUrl": "https://download.quranicaudio.com/quran/ahmad_nauina/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "ahmad_nauina.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ali_hajjaj_alsouasi",
+    "nameAr": "علي حجاج السويسي",
+    "nameEn": "Ali Hajjaj Alsouasi",
+    "baseUrl": "https://download.quranicaudio.com/quran/ali_hajjaj_alsouasi/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "ali_hajjaj_alsouasi.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "bandar_baleela",
+    "nameAr": "بندر بليلة",
+    "nameEn": "Bandar Baleela",
+    "baseUrl": "https://download.quranicaudio.com/quran/bandar_baleela/complete/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "bandar_baleela.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "mahmoud_ali_albana",
+    "nameAr": "محمود علي البنا",
+    "nameEn": "Mahmoud Ali al Bana",
+    "baseUrl": "https://download.quranicaudio.com/quran/mahmood_ali_albana/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "mahmoud_ali_albana.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdulrahman_alshahat",
+    "nameAr": "عبد الرحمن الشحات",
+    "nameEn": "Abdulrahman Al-Shahat",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdulrahman_al_shahat/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "abdulrahman_alshahat.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdurrashid_sufi",
+    "nameAr": "عبد الرشيد صوفي",
+    "nameEn": "Abdur-Rashid Sufi",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdurrashid_sufi/128kbps/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "abdurrashid_sufi.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "mostafa_ismaeel",
+    "nameAr": "مصطفى إسماعيل",
+    "nameEn": "Mostafa Ismaeel",
+    "baseUrl": "https://download.quranicaudio.com/quran/mostafa_ismaeel/128kbps/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "mostafa_ismaeel.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdulaziz_zahrani",
+    "nameAr": "عبد العزيز بن صالح الزهراني",
+    "nameEn": "Abdulaziz Az-Zahrani",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdulaziz_bin_saleh_alzahrani/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "abdulaziz_zahrani.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ayman_suwaid",
+    "nameAr": "د. أيمن سويد",
+    "nameEn": "Dr. Ayman Suwaid",
+    "baseUrl": "https://mirrors.quranicaudio.com/everyayah/Ayman_Sowaid_64kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "ayman_sowaid.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ibraheem_akhdar",
+    "nameAr": "إبراهيم الأخضر",
+    "nameEn": "Ibrahim Al-Akhdar",
+    "baseUrl": "https://www.everyayah.com/data/Ibrahim_Akhdar_32kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": "Ibrahim_akhdar.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "faras_abad",
+    "nameAr": "فارس عباد",
+    "nameEn": "Fares Abbad",
+    "baseUrl": "https://everyayah.com/data/Fares_Abbad_64kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": null,
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ali_jabbar",
+    "nameAr": "علي جابر",
+    "nameEn": "Ali Jabar",
+    "baseUrl": "https://everyayah.com/data/Ali_Jaber_64kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": null,
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ahmed_bin_ali",
+    "nameAr": "أحمد بن علي العجمي",
+    "nameEn": "Ahmed Bin Ali Al-Ajamy",
+    "baseUrl": "https://everyayah.com/data/ahmed_ibn_ali_al_ajamy_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "hafs",
+    "timingDbName": null,
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "husary_iza3a",
+    "nameAr": "محمود خليل الحصري (تسجيل الإذاعة)",
+    "nameEn": "Husary Broadcast",
+    "baseUrl": "https://download.quranicaudio.com/quran/mahmood_khaleel_al-husaree_iza3a/128kbps/",
+    "isAyahOnly": false,
+    "qiraat": "hafs",
+    "timingDbName": "husary_iza3a.db",
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "ibrahim_warsh",
+    "nameAr": "إبراهيم الدوسري (ورش)",
+    "nameEn": "Ibrahim-Al-Dosary (Warsh)",
+    "baseUrl": "https://everyayah.com/data/warsh/warsh_ibrahim_aldosary_128kbps/",
+    "isAyahOnly": true,
+    "qiraat": "warsh",
+    "timingDbName": null,
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "Yasin-Al-Jazaery_warsh",
+    "nameAr": "ياسين الجزائري (ورش)",
+    "nameEn": "Yasin-Al-Jazaery (Warsh)",
+    "baseUrl": "https://everyayah.com/data/warsh/warsh_yassin_al_jazaery_64kbps/",
+    "isAyahOnly": true,
+    "qiraat": "warsh",
+    "timingDbName": null,
+    "sourcePlatform": "iOS & Android"
+  },
+  {
+    "id": "abdurrashid_sufi_shoba",
+    "nameAr": "عبد الرشيد الصوفي (شُعبة عن عاصم)",
+    "nameEn": "Abdur-Rashid Sufi (Shubah an Asim)",
+    "baseUrl": "https://download.quranicaudio.com/quran/abdurrashid_sufi_shu3ba/",
+    "isAyahOnly": false,
+    "qiraat": "shoba",
+    "timingDbName": null,
+    "sourcePlatform": "Android"
+  }
+]

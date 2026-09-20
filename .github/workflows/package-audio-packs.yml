@@ -1,0 +1,88 @@
+name: Package and Upload Quran Audio Packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      reciter_id:
+        description: 'Specific reciter ID(s) to process (comma-separated), or "all" for all 42 reciters'
+        required: false
+        default: 'all'
+
+permissions:
+  contents: write
+
+jobs:
+  matrix-prep:
+    runs-on: ubuntu-latest
+    outputs:
+      reciters: ${{ steps.set-reciters.outputs.reciters }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Determine reciters list
+        id: set-reciters
+        run: |
+          python3 scripts/matrix_reciters.py "${{ github.event.inputs.reciter_id || 'all' }}"
+
+  process-pack:
+    needs: matrix-prep
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        reciter: ${{ fromJson(needs.matrix-prep.outputs.reciters) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Build and upload audio pack
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/build_single_pack.py "${{ matrix.reciter }}"
+
+  finalize-catalog:
+    needs: process-pack
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Update catalog with exact uploaded sizes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/sync_catalog_sizes.py
+
+      - name: Commit and push updated catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add audio/catalog.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(audio): update audio catalog with release v5.0.0 asset sizes [skip ci]" && git push origin main)
