@@ -64,9 +64,18 @@ def get_uploaded_assets():
         return set()
 
 def download_file(url, out_path):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req, timeout=30) as resp, open(out_path, 'wb') as f:
-        shutil.copyfileobj(resp, f)
+    cmd = [
+        'curl', '-sSL',
+        '--retry', '5',
+        '--retry-delay', '2',
+        '--connect-timeout', '30',
+        '-A', 'Mozilla/5.0',
+        '-o', out_path,
+        url
+    ]
+    res = subprocess.run(cmd, capture_output=True)
+    if res.returncode != 0:
+        raise RuntimeError(f"curl download failed for {url}: {res.stderr.decode()}")
 
 def download_surah_reciter(reciter_id, base_url, target_folder):
     os.makedirs(target_folder, exist_ok=True)
