@@ -109,6 +109,20 @@ def build_and_upload_reciter(reciter, uploaded_assets):
             print(f"[{rid}] Downloading 114 Surahs from {reciter['baseUrl']}...")
             download_surah_reciter(rid, reciter['baseUrl'], reciter_dir)
 
+            # Re-encode to 64kbps with ffmpeg to get minimum zip size (<1GB) and avoid GitHub upload limits
+            print(f"[{rid}] Compressing 114 Surahs to 64kbps for lowest zip size...")
+            def _compress_file(f):
+                if f.endswith('.mp3'):
+                    src = os.path.join(reciter_dir, f)
+                    tmp_out = os.path.join(reciter_dir, f"cmp_{f}")
+                    subprocess.run(['ffmpeg', '-i', src, '-b:a', '64k', '-y', tmp_out],
+                                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                    if os.path.exists(tmp_out) and os.path.getsize(tmp_out) > 0:
+                        os.replace(tmp_out, src)
+
+            with ThreadPoolExecutor(max_workers=8) as ex:
+                list(ex.map(_compress_file, os.listdir(reciter_dir)))
+
             print(f"[{rid}] Creating zip at maximum compression...")
             with zipfile.ZipFile(final_zip, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
                 for f in sorted(os.listdir(reciter_dir)):
