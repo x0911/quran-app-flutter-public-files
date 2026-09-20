@@ -6,7 +6,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "minshawi_murattal.zip",
-    "compressedSizeBytes": 365000000,
+    "compressedSizeBytes": 818283779,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/minshawi_murattal.zip"
@@ -18,7 +18,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "husary.zip",
-    "compressedSizeBytes": 356000000,
+    "compressedSizeBytes": 1206357556,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/husary.zip"
@@ -30,7 +30,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "sudais_murattal.zip",
-    "compressedSizeBytes": 380000000,
+    "compressedSizeBytes": 594147442,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/sudais_murattal.zip"
@@ -42,7 +42,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "qatami.zip",
-    "compressedSizeBytes": 395000000,
+    "compressedSizeBytes": 764991657,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/qatami.zip"
@@ -54,7 +54,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "abdullah_basfar.zip",
-    "compressedSizeBytes": 865000000,
+    "compressedSizeBytes": 865104584,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdullah_basfar.zip"
@@ -66,7 +66,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "shatri.zip",
-    "compressedSizeBytes": 1430000000,
+    "compressedSizeBytes": 1431225194,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/shatri.zip"
@@ -78,7 +78,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "alafasy.zip",
-    "compressedSizeBytes": 1707000000,
+    "compressedSizeBytes": 1707811817,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/alafasy.zip"
@@ -90,7 +90,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ghamdi.zip",
-    "compressedSizeBytes": 446000000,
+    "compressedSizeBytes": 446662812,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ghamdi.zip"
@@ -102,7 +102,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ibrahim_walk.zip",
-    "compressedSizeBytes": 980000000,
+    "compressedSizeBytes": 511799628,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ibrahim_walk.zip"
@@ -114,7 +114,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "hani_rifai.zip",
-    "compressedSizeBytes": 1850000000,
+    "compressedSizeBytes": 735934755,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/hani_rifai.zip"
@@ -126,7 +126,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "husary_mujawwad.zip",
-    "compressedSizeBytes": 1780000000,
+    "compressedSizeBytes": 1780725787,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/husary_mujawwad.zip"
@@ -138,7 +138,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "hudhaify.zip",
-    "compressedSizeBytes": 1730000000,
+    "compressedSizeBytes": 1733755052,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/hudhaify.zip"
@@ -150,7 +150,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "almuaiqly.zip",
-    "compressedSizeBytes": 614000000,
+    "compressedSizeBytes": 614339401,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/almuaiqly.zip"
@@ -162,7 +162,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "minsha_mujawwad.zip",
-    "compressedSizeBytes": 1730000000,
+    "compressedSizeBytes": 1729985444,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/minsha_mujawwad.zip"
@@ -174,7 +174,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "tablawy.zip",
-    "compressedSizeBytes": 1718000000,
+    "compressedSizeBytes": 1717868041,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/tablawy.zip"
@@ -186,7 +186,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "muhammad_ayyoub.zip",
-    "compressedSizeBytes": 1859000000,
+    "compressedSizeBytes": 1859536305,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/muhammad_ayyoub.zip"
@@ -198,7 +198,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "muhammad_jibreel.zip",
-    "compressedSizeBytes": 1500000000,
+    "compressedSizeBytes": 1500630322,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/muhammad_jibreel.zip"
@@ -210,7 +210,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "shuraym.zip",
-    "compressedSizeBytes": 1055000000,
+    "compressedSizeBytes": 1055115403,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/shuraym.zip"
@@ -222,7 +222,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "dussary.zip",
-    "compressedSizeBytes": 1503000000,
+    "compressedSizeBytes": 1503371701,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/dussary.zip"
@@ -234,7 +234,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "abdul_basit_murattal.zip",
-    "compressedSizeBytes": 390000000,
+    "compressedSizeBytes": 879789016,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdul_basit_murattal.zip"
@@ -246,7 +246,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "abdul_basit_mujawwad.zip",
-    "compressedSizeBytes": 480000000,
+    "compressedSizeBytes": 1727735541,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdul_basit_mujawwad.zip"
@@ -258,7 +258,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "aziz_alili.zip",
-    "compressedSizeBytes": 370000000,
+    "compressedSizeBytes": 728428966,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/aziz_alili.zip"
@@ -270,7 +270,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "salah_budair.zip",
-    "compressedSizeBytes": 365000000,
+    "compressedSizeBytes": 583356781,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/salah_budair.zip"
@@ -282,7 +282,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "sahl_yaseen.zip",
-    "compressedSizeBytes": 370000000,
+    "compressedSizeBytes": 688299457,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/sahl_yaseen.zip"
@@ -294,7 +294,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "akram_al_alaqmi.zip",
-    "compressedSizeBytes": 350000000,
+    "compressedSizeBytes": 766119991,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/akram_al_alaqmi.zip"
@@ -306,7 +306,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "ahmad_nauina.zip",
-    "compressedSizeBytes": 385000000,
+    "compressedSizeBytes": 833243343,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ahmad_nauina.zip"
@@ -318,7 +318,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "ali_hajjaj_alsouasi.zip",
-    "compressedSizeBytes": 395000000,
+    "compressedSizeBytes": 842982893,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ali_hajjaj_alsouasi.zip"
@@ -330,7 +330,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "bandar_baleela.zip",
-    "compressedSizeBytes": 360000000,
+    "compressedSizeBytes": 824043628,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/bandar_baleela.zip"
@@ -342,7 +342,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "mahmoud_ali_albana.zip",
-    "compressedSizeBytes": 375000000,
+    "compressedSizeBytes": 733099279,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/mahmoud_ali_albana.zip"
@@ -354,7 +354,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "abdulrahman_alshahat.zip",
-    "compressedSizeBytes": 380000000,
+    "compressedSizeBytes": 665521546,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdulrahman_alshahat.zip"
@@ -366,7 +366,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "abdurrashid_sufi.zip",
-    "compressedSizeBytes": 390000000,
+    "compressedSizeBytes": 685716881,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdurrashid_sufi.zip"
@@ -378,7 +378,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "mostafa_ismaeel.zip",
-    "compressedSizeBytes": 410000000,
+    "compressedSizeBytes": 814325110,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/mostafa_ismaeel.zip"
@@ -390,7 +390,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "abdulaziz_zahrani.zip",
-    "compressedSizeBytes": 375000000,
+    "compressedSizeBytes": 906368457,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdulaziz_zahrani.zip"
@@ -402,7 +402,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ayman_suwaid.zip",
-    "compressedSizeBytes": 580000000,
+    "compressedSizeBytes": 1103483378,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ayman_suwaid.zip"
@@ -414,7 +414,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ibraheem_akhdar.zip",
-    "compressedSizeBytes": 487000000,
+    "compressedSizeBytes": 487348508,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ibraheem_akhdar.zip"
@@ -426,7 +426,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "faras_abad.zip",
-    "compressedSizeBytes": 622000000,
+    "compressedSizeBytes": 622879357,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/faras_abad.zip"
@@ -438,7 +438,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ali_jabbar.zip",
-    "compressedSizeBytes": 734000000,
+    "compressedSizeBytes": 734566880,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ali_jabbar.zip"
@@ -450,7 +450,7 @@
     "isAyahOnly": true,
     "qiraat": "hafs",
     "zipFileName": "ahmed_bin_ali.zip",
-    "compressedSizeBytes": 1506000000,
+    "compressedSizeBytes": 1506167344,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ahmed_bin_ali.zip"
@@ -462,7 +462,7 @@
     "isAyahOnly": false,
     "qiraat": "hafs",
     "zipFileName": "husary_iza3a.zip",
-    "compressedSizeBytes": 370000000,
+    "compressedSizeBytes": 850515664,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/husary_iza3a.zip"
@@ -474,7 +474,7 @@
     "isAyahOnly": true,
     "qiraat": "warsh",
     "zipFileName": "ibrahim_warsh.zip",
-    "compressedSizeBytes": 1950000000,
+    "compressedSizeBytes": 1080513630,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/ibrahim_warsh.zip"
@@ -486,7 +486,7 @@
     "isAyahOnly": true,
     "qiraat": "warsh",
     "zipFileName": "Yasin-Al-Jazaery_warsh.zip",
-    "compressedSizeBytes": 667000000,
+    "compressedSizeBytes": 667835522,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/Yasin-Al-Jazaery_warsh.zip"
@@ -498,7 +498,7 @@
     "isAyahOnly": false,
     "qiraat": "shoba",
     "zipFileName": "abdurrashid_sufi_shoba.zip",
-    "compressedSizeBytes": 385000000,
+    "compressedSizeBytes": 687465352,
     "surahCount": 114,
     "ayahCount": 6236,
     "downloadUrl": "https://github.com/x0911/quran-app-flutter-public-files/releases/download/v5.0.0/abdurrashid_sufi_shoba.zip"
