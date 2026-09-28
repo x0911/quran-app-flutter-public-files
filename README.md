@@ -23,7 +23,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ahmad_nauina.zip` | 794.64 MB | 0 |
 | `v5.0.0` | `ahmed_bin_ali.zip` | 1436.39 MB | 0 |
 | `v5.0.0` | `akram_al_alaqmi.zip` | 730.63 MB | 0 |
-| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 1 |
+| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 3 |
 | `v5.0.0` | `ali_hajjaj_alsouasi.zip` | 803.93 MB | 0 |
 | `v5.0.0` | `ali_jabbar.zip` | 700.54 MB | 0 |
 | `v5.0.0` | `almuaiqly.zip` | 585.88 MB | 0 |
@@ -148,7 +148,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.th.thai_rwwad.db.zip` | 0.51 MB | 0 |
 | `v4.0.0` | `quran.uz.uzbek_rwwad.db.zip` | 0.37 MB | 0 |
 | `v4.0.0` | `quran.zh.chinese_suliman.db.zip` | 0.30 MB | 0 |
-| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 5 |
+| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 6 |
 | `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 1 |
 | `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 1 |
 | `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 3 |
@@ -163,9 +163,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `148`
+**Total Asset Downloads across all releases:** `151`
 
-*Last updated: 2026-09-27 02:26 UTC*
+*Last updated: 2026-09-28 02:30 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
