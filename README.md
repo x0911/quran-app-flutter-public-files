@@ -32,7 +32,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ahmad_nauina.zip` | 794.64 MB | 0 |
 | `v5.0.0` | `ahmed_bin_ali.zip` | 1436.39 MB | 0 |
 | `v5.0.0` | `akram_al_alaqmi.zip` | 730.63 MB | 0 |
-| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 3 |
+| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 4 |
 | `v5.0.0` | `ali_hajjaj_alsouasi.zip` | 803.93 MB | 0 |
 | `v5.0.0` | `ali_jabbar.zip` | 700.54 MB | 0 |
 | `v5.0.0` | `almuaiqly.zip` | 585.88 MB | 0 |
@@ -161,8 +161,8 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 1 |
 | `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 1 |
 | `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 3 |
-| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 64 |
-| `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 44 |
+| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 80 |
+| `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 53 |
 | `v3.0.0` | `quran_offline_library.zip` | 41.79 MB | 1 |
 | `v3.0.0` | `wbw-translation.zip` | 1.65 MB | 1 |
 | `v2.0.0` | `visual_refs_images.zip` | 3.51 MB | 0 |
@@ -172,9 +172,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `223`
+**Total Asset Downloads across all releases:** `249`
 
-*Last updated: 2026-10-08 03:30 UTC*
+*Last updated: 2026-10-09 03:36 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
