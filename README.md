@@ -12,15 +12,15 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 614 |
+| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 670 |
 | `v8.0.0` | `patch_shoba_v2.zip` | 22.39 MB | 6 |
 | `v8.0.0` | `patch_shoba_v3.zip` | 128.19 MB | 5 |
 | `v8.0.0` | `patch_shoba_v4.zip` | 128.19 MB | 4 |
 | `v8.0.0` | `patch_warsh_v2.zip` | 138.98 MB | 6 |
 | `v8.0.0` | `patch_warsh_v3.zip` | 138.96 MB | 6 |
-| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 26 |
+| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 28 |
 | `v8.0.0` | `shoba_svg_lines.zip` | 128.19 MB | 6 |
-| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 29 |
+| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 36 |
 | `v8.0.0` | `warsh_svg_lines.zip` | 138.96 MB | 6 |
 | `v7.0.0` | `warsh_svg_lines.tar.xz` | 94.53 MB | 1 |
 | `v7.0.0` | `warsh_svg_lines.zip` | 138.97 MB | 8 |
@@ -35,7 +35,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ahmad_nauina.zip` | 794.64 MB | 0 |
 | `v5.0.0` | `ahmed_bin_ali.zip` | 1436.39 MB | 1 |
 | `v5.0.0` | `akram_al_alaqmi.zip` | 730.63 MB | 0 |
-| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 22 |
+| `v5.0.0` | `alafasy.zip` | 1628.70 MB | 24 |
 | `v5.0.0` | `ali_hajjaj_alsouasi.zip` | 803.93 MB | 0 |
 | `v5.0.0` | `ali_jabbar.zip` | 700.54 MB | 3 |
 | `v5.0.0` | `almuaiqly.zip` | 585.88 MB | 5 |
@@ -44,10 +44,10 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `bandar_baleela.zip` | 785.87 MB | 0 |
 | `v5.0.0` | `dussary.zip` | 1433.73 MB | 3 |
 | `v5.0.0` | `faras_abad.zip` | 594.02 MB | 2 |
-| `v5.0.0` | `ghamdi.zip` | 425.97 MB | 8 |
+| `v5.0.0` | `ghamdi.zip` | 425.97 MB | 11 |
 | `v5.0.0` | `hani_rifai.zip` | 701.84 MB | 0 |
 | `v5.0.0` | `hudhaify.zip` | 1653.44 MB | 0 |
-| `v5.0.0` | `husary.zip` | 1150.47 MB | 28 |
+| `v5.0.0` | `husary.zip` | 1150.47 MB | 30 |
 | `v5.0.0` | `husary_iza3a.zip` | 811.11 MB | 2 |
 | `v5.0.0` | `husary_mujawwad.zip` | 1698.23 MB | 6 |
 | `v5.0.0` | `ibraheem_akhdar.zip` | 464.77 MB | 0 |
@@ -110,7 +110,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.ar.tajiki.db.zip` | 0.47 MB | 0 |
 | `v4.0.0` | `quran.ar.tamil.db.zip` | 0.67 MB | 0 |
 | `v4.0.0` | `quran.ar.tanweer.db.zip` | 15.64 MB | 0 |
-| `v4.0.0` | `quran.ar.turkish.db.zip` | 0.34 MB | 0 |
+| `v4.0.0` | `quran.ar.turkish.db.zip` | 0.34 MB | 1 |
 | `v4.0.0` | `quran.ar.turkish.rwwad.db.zip` | 0.34 MB | 0 |
 | `v4.0.0` | `quran.ar.turkish.shaban.db.zip` | 0.32 MB | 0 |
 | `v4.0.0` | `quran.ar.turkish.shahin.db.zip` | 0.36 MB | 0 |
@@ -160,10 +160,10 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.th.thai_rwwad.db.zip` | 0.51 MB | 0 |
 | `v4.0.0` | `quran.uz.uzbek_rwwad.db.zip` | 0.37 MB | 1 |
 | `v4.0.0` | `quran.zh.chinese_suliman.db.zip` | 0.30 MB | 0 |
-| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 14 |
-| `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 4 |
-| `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 5 |
-| `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 7 |
+| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 15 |
+| `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 5 |
+| `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 6 |
+| `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 8 |
 | `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 234 |
 | `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 181 |
 | `v3.0.0` | `quran_offline_library.zip` | 41.79 MB | 1 |
@@ -175,9 +175,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `1,409`
+**Total Asset Downloads across all releases:** `1,486`
 
-*Last updated: 2026-10-23 02:29 UTC*
+*Last updated: 2026-10-24 02:27 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
