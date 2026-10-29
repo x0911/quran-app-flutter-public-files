@@ -12,15 +12,15 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 777 |
+| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 799 |
 | `v8.0.0` | `patch_shoba_v2.zip` | 22.39 MB | 6 |
 | `v8.0.0` | `patch_shoba_v3.zip` | 128.19 MB | 5 |
 | `v8.0.0` | `patch_shoba_v4.zip` | 128.19 MB | 4 |
 | `v8.0.0` | `patch_warsh_v2.zip` | 138.98 MB | 6 |
 | `v8.0.0` | `patch_warsh_v3.zip` | 138.96 MB | 6 |
-| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 30 |
+| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 32 |
 | `v8.0.0` | `shoba_svg_lines.zip` | 128.19 MB | 6 |
-| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 52 |
+| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 55 |
 | `v8.0.0` | `warsh_svg_lines.zip` | 138.96 MB | 6 |
 | `v7.0.0` | `warsh_svg_lines.tar.xz` | 94.53 MB | 1 |
 | `v7.0.0` | `warsh_svg_lines.zip` | 138.97 MB | 8 |
@@ -54,8 +54,8 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ibrahim_walk.zip` | 488.09 MB | 0 |
 | `v5.0.0` | `ibrahim_warsh.zip` | 1030.46 MB | 0 |
 | `v5.0.0` | `mahmoud_ali_albana.zip` | 699.14 MB | 4 |
-| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 29 |
-| `v5.0.0` | `minsha_mujawwad.zip` | 1649.84 MB | 5 |
+| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 30 |
+| `v5.0.0` | `minsha_mujawwad.zip` | 1649.84 MB | 6 |
 | `v5.0.0` | `mostafa_ismaeel.zip` | 776.60 MB | 0 |
 | `v5.0.0` | `muhammad_ayyoub.zip` | 1773.39 MB | 1 |
 | `v5.0.0` | `muhammad_jibreel.zip` | 1431.11 MB | 3 |
@@ -81,8 +81,8 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.ar.english-saheh.db.zip` | 0.34 MB | 3 |
 | `v4.0.0` | `quran.ar.english.db.zip` | 0.42 MB | 1 |
 | `v4.0.0` | `quran.ar.farsi.db.zip` | 0.45 MB | 0 |
-| `v4.0.0` | `quran.ar.french-hameedullah.db.zip` | 0.35 MB | 1 |
-| `v4.0.0` | `quran.ar.french.db.zip` | 0.38 MB | 0 |
+| `v4.0.0` | `quran.ar.french-hameedullah.db.zip` | 0.35 MB | 3 |
+| `v4.0.0` | `quran.ar.french.db.zip` | 0.38 MB | 1 |
 | `v4.0.0` | `quran.ar.german.db.zip` | 0.34 MB | 1 |
 | `v4.0.0` | `quran.ar.hausa.db.zip` | 0.31 MB | 0 |
 | `v4.0.0` | `quran.ar.hindi.db.zip` | 0.43 MB | 0 |
@@ -101,10 +101,10 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.ar.port.db.zip` | 0.31 MB | 0 |
 | `v4.0.0` | `quran.ar.qurtubi.db.zip` | 10.53 MB | 0 |
 | `v4.0.0` | `quran.ar.sa3dy.db.zip` | 3.65 MB | 0 |
-| `v4.0.0` | `quran.ar.spanish.db.zip` | 0.34 MB | 1 |
+| `v4.0.0` | `quran.ar.spanish.db.zip` | 0.34 MB | 2 |
 | `v4.0.0` | `quran.ar.spanish.eu.db.zip` | 0.55 MB | 0 |
 | `v4.0.0` | `quran.ar.spanish.garcia.db.zip` | 0.34 MB | 0 |
-| `v4.0.0` | `quran.ar.spanish.latin.db.zip` | 0.54 MB | 0 |
+| `v4.0.0` | `quran.ar.spanish.latin.db.zip` | 0.54 MB | 1 |
 | `v4.0.0` | `quran.ar.tabari.db.zip` | 16.31 MB | 0 |
 | `v4.0.0` | `quran.ar.taglog.db.zip` | 0.31 MB | 1 |
 | `v4.0.0` | `quran.ar.tajiki.db.zip` | 0.47 MB | 0 |
@@ -120,15 +120,15 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.ar.Vetnami.db.zip` | 0.39 MB | 0 |
 | `v4.0.0` | `quran.ar.waseet.db.zip` | 9.37 MB | 0 |
 | `v4.0.0` | `quran.ar.yoruba.db.zip` | 0.38 MB | 1 |
-| `v4.0.0` | `quran.az.azeri_musayev.db.zip` | 0.34 MB | 1 |
+| `v4.0.0` | `quran.az.azeri_musayev.db.zip` | 0.34 MB | 2 |
 | `v4.0.0` | `quran.ceb.bisayan_rwwad.db.zip` | 0.40 MB | 0 |
 | `v4.0.0` | `quran.de.german_rwwad.db.zip` | 0.36 MB | 0 |
 | `v4.0.0` | `quran.en.english_hilali_khan.db.zip` | 0.42 MB | 2 |
 | `v4.0.0` | `quran.en.english_rwwad.db.zip` | 0.31 MB | 1 |
 | `v4.0.0` | `quran.fa.persian_ih.db.zip` | 0.45 MB | 0 |
 | `v4.0.0` | `quran.ff.fulani_rwwad.db.zip` | 0.31 MB | 0 |
-| `v4.0.0` | `quran.fr.french_montada.db.zip` | 0.38 MB | 0 |
-| `v4.0.0` | `quran.fr.french_rashid.db.zip` | 0.37 MB | 0 |
+| `v4.0.0` | `quran.fr.french_montada.db.zip` | 0.38 MB | 1 |
+| `v4.0.0` | `quran.fr.french_rashid.db.zip` | 0.37 MB | 1 |
 | `v4.0.0` | `quran.gu.gujarati_omari.db.zip` | 0.48 MB | 0 |
 | `v4.0.0` | `quran.hr.croatian_rwwad.db.zip` | 0.31 MB | 0 |
 | `v4.0.0` | `quran.km.khmer_cambodia.db.zip` | 0.55 MB | 0 |
@@ -175,9 +175,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `1,657`
+**Total Asset Downloads across all releases:** `1,694`
 
-*Last updated: 2026-10-28 02:58 UTC*
+*Last updated: 2026-10-29 03:25 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
