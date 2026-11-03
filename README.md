@@ -12,7 +12,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 916 |
+| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 936 |
 | `v8.0.0` | `patch_shoba_v2.zip` | 22.39 MB | 6 |
 | `v8.0.0` | `patch_shoba_v3.zip` | 128.19 MB | 5 |
 | `v8.0.0` | `patch_shoba_v4.zip` | 128.19 MB | 4 |
@@ -54,7 +54,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ibrahim_walk.zip` | 488.09 MB | 0 |
 | `v5.0.0` | `ibrahim_warsh.zip` | 1030.46 MB | 0 |
 | `v5.0.0` | `mahmoud_ali_albana.zip` | 699.14 MB | 4 |
-| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 45 |
+| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 46 |
 | `v5.0.0` | `minsha_mujawwad.zip` | 1649.84 MB | 9 |
 | `v5.0.0` | `mostafa_ismaeel.zip` | 776.60 MB | 0 |
 | `v5.0.0` | `muhammad_ayyoub.zip` | 1773.39 MB | 2 |
@@ -164,7 +164,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 10 |
 | `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 10 |
 | `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 12 |
-| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 236 |
+| `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 238 |
 | `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 182 |
 | `v3.0.0` | `quran_offline_library.zip` | 41.79 MB | 1 |
 | `v3.0.0` | `wbw-translation.zip` | 1.65 MB | 1 |
@@ -175,9 +175,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `1,899`
+**Total Asset Downloads across all releases:** `1,922`
 
-*Last updated: 2026-11-02 03:19 UTC*
+*Last updated: 2026-11-03 04:31 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
