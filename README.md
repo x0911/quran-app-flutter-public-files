@@ -12,26 +12,26 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v9.0.0` | `quran_ai_model_android.zip` | 55.24 MB | 18 |
-| `v9.0.0` | `quran_ai_model_ios.zip` | 112.79 MB | 10 |
-| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 1,258 |
+| `v9.0.0` | `quran_ai_model_android.zip` | 55.24 MB | 22 |
+| `v9.0.0` | `quran_ai_model_ios.zip` | 112.79 MB | 11 |
+| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 1,308 |
 | `v8.0.0` | `patch_shoba_v2.zip` | 22.39 MB | 6 |
 | `v8.0.0` | `patch_shoba_v3.zip` | 128.19 MB | 5 |
 | `v8.0.0` | `patch_shoba_v4.zip` | 128.19 MB | 4 |
 | `v8.0.0` | `patch_warsh_v2.zip` | 138.98 MB | 6 |
 | `v8.0.0` | `patch_warsh_v3.zip` | 138.96 MB | 6 |
-| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 51 |
+| `v8.0.0` | `shoba_1260_lines.zip` | 101.38 MB | 53 |
 | `v8.0.0` | `shoba_svg_lines.zip` | 128.19 MB | 6 |
-| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 67 |
+| `v8.0.0` | `warsh_1260_lines.zip` | 97.97 MB | 70 |
 | `v8.0.0` | `warsh_svg_lines.zip` | 138.96 MB | 7 |
 | `v7.0.0` | `warsh_svg_lines.tar.xz` | 94.53 MB | 1 |
 | `v7.0.0` | `warsh_svg_lines.zip` | 138.97 MB | 8 |
 | `v6.0.0` | `images_1260_shoba.zip` | 200.36 MB | 0 |
 | `v5.0.0` | `abdulaziz_zahrani.zip` | 864.38 MB | 3 |
-| `v5.0.0` | `abdullah_basfar.zip` | 825.03 MB | 5 |
+| `v5.0.0` | `abdullah_basfar.zip` | 825.03 MB | 17 |
 | `v5.0.0` | `abdulrahman_alshahat.zip` | 634.69 MB | 3 |
 | `v5.0.0` | `abdul_basit_mujawwad.zip` | 1647.70 MB | 21 |
-| `v5.0.0` | `abdul_basit_murattal.zip` | 839.03 MB | 9 |
+| `v5.0.0` | `abdul_basit_murattal.zip` | 839.03 MB | 10 |
 | `v5.0.0` | `abdurrashid_sufi.zip` | 653.95 MB | 2 |
 | `v5.0.0` | `abdurrashid_sufi_shoba.zip` | 655.62 MB | 6 |
 | `v5.0.0` | `ahmad_nauina.zip` | 794.64 MB | 4 |
@@ -49,7 +49,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ghamdi.zip` | 425.97 MB | 29 |
 | `v5.0.0` | `hani_rifai.zip` | 701.84 MB | 2 |
 | `v5.0.0` | `hudhaify.zip` | 1653.44 MB | 13 |
-| `v5.0.0` | `husary.zip` | 1150.47 MB | 41 |
+| `v5.0.0` | `husary.zip` | 1150.47 MB | 42 |
 | `v5.0.0` | `husary_iza3a.zip` | 811.11 MB | 8 |
 | `v5.0.0` | `husary_mujawwad.zip` | 1698.23 MB | 17 |
 | `v5.0.0` | `ibraheem_akhdar.zip` | 464.77 MB | 2 |
@@ -145,7 +145,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.muyassar.db.zip` | 1.36 MB | 0 |
 | `v4.0.0` | `quran.nl.dutch_center.db.zip` | 0.37 MB | 1 |
 | `v4.0.0` | `quran.nqo.ankobambara_dayyan.db.zip` | 0.38 MB | 1 |
-| `v4.0.0` | `quran.pa.punjabi_arif.db.zip` | 0.54 MB | 1 |
+| `v4.0.0` | `quran.pa.punjabi_arif.db.zip` | 0.54 MB | 2 |
 | `v4.0.0` | `quran.rn.ikirundi_gehiti.db.zip` | 0.50 MB | 0 |
 | `v4.0.0` | `quran.ro.romanian_project.db.zip` | 0.36 MB | 0 |
 | `v4.0.0` | `quran.rw.kinyarwanda_assoc.db.zip` | 0.34 MB | 0 |
@@ -162,10 +162,10 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.th.thai_rwwad.db.zip` | 0.51 MB | 0 |
 | `v4.0.0` | `quran.uz.uzbek_rwwad.db.zip` | 0.37 MB | 4 |
 | `v4.0.0` | `quran.zh.chinese_suliman.db.zip` | 0.30 MB | 0 |
-| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 25 |
-| `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 11 |
-| `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 12 |
-| `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 13 |
+| `v4.0.0` | `tafsir-muyassar.sqlite.zip` | 0.62 MB | 27 |
+| `v4.0.0` | `tafsir-qurtubi.sqlite.zip` | 5.20 MB | 13 |
+| `v4.0.0` | `tafsir-tanweer.sqlite.zip` | 7.89 MB | 14 |
+| `v4.0.0` | `tafsir-waseet.sqlite.zip` | 4.81 MB | 15 |
 | `v3.0.0` | `hafs_bundle.tar.xz` | 33.03 MB | 241 |
 | `v3.0.0` | `quran_offline_library.tar.xz` | 21.18 MB | 183 |
 | `v3.0.0` | `quran_offline_library.zip` | 41.79 MB | 1 |
@@ -177,9 +177,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `2,507`
+**Total Asset Downloads across all releases:** `2,590`
 
-*Last updated: 2026-11-13 04:01 UTC*
+*Last updated: 2026-11-14 03:59 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
