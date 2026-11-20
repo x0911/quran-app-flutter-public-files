@@ -12,9 +12,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 <!-- DOWNLOAD_STATS_START -->
 | Release Tag | Asset Name | File Size | Download Count |
 | :--- | :--- | :--- | :--- |
-| `v9.0.0` | `quran_ai_model_android.zip` | 55.24 MB | 79 |
-| `v9.0.0` | `quran_ai_model_ios.zip` | 112.79 MB | 50 |
-| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 1,553 |
+| `v9.0.0` | `quran_ai_model_android.zip` | 55.24 MB | 83 |
+| `v9.0.0` | `quran_ai_model_ios.zip` | 112.79 MB | 55 |
+| `v8.0.0` | `hafs_1442_lines.zip` | 85.19 MB | 1,572 |
 | `v8.0.0` | `patch_shoba_v2.zip` | 22.39 MB | 6 |
 | `v8.0.0` | `patch_shoba_v3.zip` | 128.19 MB | 5 |
 | `v8.0.0` | `patch_shoba_v4.zip` | 128.19 MB | 4 |
@@ -49,14 +49,14 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `ghamdi.zip` | 425.97 MB | 30 |
 | `v5.0.0` | `hani_rifai.zip` | 701.84 MB | 2 |
 | `v5.0.0` | `hudhaify.zip` | 1653.44 MB | 13 |
-| `v5.0.0` | `husary.zip` | 1150.47 MB | 49 |
+| `v5.0.0` | `husary.zip` | 1150.47 MB | 50 |
 | `v5.0.0` | `husary_iza3a.zip` | 811.11 MB | 8 |
 | `v5.0.0` | `husary_mujawwad.zip` | 1698.23 MB | 17 |
 | `v5.0.0` | `ibraheem_akhdar.zip` | 464.77 MB | 2 |
 | `v5.0.0` | `ibrahim_walk.zip` | 488.09 MB | 2 |
 | `v5.0.0` | `ibrahim_warsh.zip` | 1030.46 MB | 4 |
 | `v5.0.0` | `mahmoud_ali_albana.zip` | 699.14 MB | 9 |
-| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 65 |
+| `v5.0.0` | `minshawi_murattal.zip` | 780.38 MB | 67 |
 | `v5.0.0` | `minsha_mujawwad.zip` | 1649.84 MB | 16 |
 | `v5.0.0` | `mostafa_ismaeel.zip` | 776.60 MB | 6 |
 | `v5.0.0` | `muhammad_ayyoub.zip` | 1773.39 MB | 4 |
@@ -64,7 +64,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v5.0.0` | `qatami.zip` | 729.55 MB | 4 |
 | `v5.0.0` | `sahl_yaseen.zip` | 656.41 MB | 2 |
 | `v5.0.0` | `salah_budair.zip` | 556.33 MB | 5 |
-| `v5.0.0` | `shatri.zip` | 1364.92 MB | 6 |
+| `v5.0.0` | `shatri.zip` | 1364.92 MB | 7 |
 | `v5.0.0` | `shuraym.zip` | 1006.24 MB | 6 |
 | `v5.0.0` | `sudais_murattal.zip` | 566.62 MB | 11 |
 | `v5.0.0` | `tablawy.zip` | 1638.29 MB | 8 |
@@ -106,7 +106,7 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v4.0.0` | `quran.ar.spanish.db.zip` | 0.34 MB | 2 |
 | `v4.0.0` | `quran.ar.spanish.eu.db.zip` | 0.55 MB | 0 |
 | `v4.0.0` | `quran.ar.spanish.garcia.db.zip` | 0.34 MB | 0 |
-| `v4.0.0` | `quran.ar.spanish.latin.db.zip` | 0.54 MB | 1 |
+| `v4.0.0` | `quran.ar.spanish.latin.db.zip` | 0.54 MB | 2 |
 | `v4.0.0` | `quran.ar.tabari.db.zip` | 16.31 MB | 0 |
 | `v4.0.0` | `quran.ar.taglog.db.zip` | 0.31 MB | 1 |
 | `v4.0.0` | `quran.ar.tajiki.db.zip` | 0.47 MB | 0 |
@@ -177,9 +177,9 @@ This repository hosts the static Quran text-rendering asset bundle (per-page cus
 | `v1.0.0` | `quran-surah-pages.zip` | 0.23 MB | 13 |
 | `v1.0.0` | `ui-fonts.zip` | 2.04 MB | 12 |
 
-**Total Asset Downloads across all releases:** `2,971`
+**Total Asset Downloads across all releases:** `3,004`
 
-*Last updated: 2026-11-19 04:58 UTC*
+*Last updated: 2026-11-20 04:49 UTC*
 <!-- DOWNLOAD_STATS_END -->
 
 ---
